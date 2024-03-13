@@ -1,14 +1,19 @@
+
 .hero {
     background-color: #1F2937;
+    /* width: 100%; */
+    
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
+    
 }
 .header img {
     border-radius: 50%;
+    padding: 10px;
 }
 ul {
     list-style: none;
