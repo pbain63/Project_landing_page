@@ -116,8 +116,9 @@ button {
   /*  */
 .sign-up {
     display: flex;
-    
+    justify-content: space-between;
     background-color: #3882F6;
     margin: 80px 100px;
     padding: 40px 80px 40px 80px;
+    color: white;
 }
