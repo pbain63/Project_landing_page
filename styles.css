@@ -1,4 +1,7 @@
-
+body{
+    height: 100vh;
+    margin: 0;
+}
 .hero {
     background-color: #1F2937;
     /* width: 100%; */
