@@ -1,4 +1,6 @@
-
+.hero {
+    background-color: #1F2937;
+}
 .header {
     display: flex;
     justify-content: space-between;
