@@ -122,3 +122,12 @@ button {
     padding: 40px 80px 40px 80px;
     color: white;
 }
+.sign-up button {
+    border: 2px solid white;
+    font-weight: bold;
+}
+.bold-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+/*  */
