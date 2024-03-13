@@ -131,3 +131,11 @@ button {
     font-weight: bold;
 }
 /*  */
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
