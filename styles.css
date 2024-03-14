@@ -28,9 +28,7 @@ a {
     font-size: 18px;
     color:#E5E7EB;  
 }
-/* .right-links a:hoover {
-    background: white;
-} */
+
 .right-links {
     display: flex;
     gap: 40px;
