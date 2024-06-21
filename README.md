@@ -1,4 +1,4 @@
-# Project: landing-page
+# Project: Landing-Page
 
 This project is called 'Project:Landing Page' from the Flexbox section of the "THE ODIN PROJECT". It's one page website design with header, different content, and footer.
 
