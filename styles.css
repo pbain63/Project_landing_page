@@ -1,6 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   height: 100vh;
   margin: 0;
+}
+.container--width {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .hero {
   background-color: #1f2937;
@@ -9,11 +21,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
 }
+
 .header img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   padding-top: 15px;
 }
 ul {
@@ -30,13 +43,31 @@ a {
 .right-links {
   display: flex;
   gap: 40px;
+  /* color: red; */
+}
+.right-links--item {
+  /* color: red; */
+  cursor: pointer;
+}
+.right-links--item:hover,
+.right-links--item:focus {
+  opacity: 0.75;
+}
+img {
+  max-width: 100%;
+}
+.left,
+.hero-image {
+  border: 2px solid white;
 }
 .hero-main {
   display: flex;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-bottom: 35px;
+  /* border: 2px solid red; */
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  padding: 5em 0;
+  border: 2px solid yellow;
 }
 h2 {
   font-size: 48px;
@@ -46,9 +77,11 @@ h2 {
 p {
   font-size: 24px;
   color: #e5e7eb;
+  padding: 1em 0;
 }
+
 .left {
-  width: 600px;
+  width: 40%;
 }
 button {
   background-color: #3882f6;
@@ -61,18 +94,24 @@ button {
 /*  */
 .information {
   text-align: center;
+  width: 47%;
+  margin: 0 auto;
+  border: 2px solid red;
+  padding-bottom: 5em;
+  /* margin-bottom: 5rem; */
 }
 .title {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .info-container {
   display: flex;
   justify-content: center;
   gap: 52px;
+  border: 2px solid green;
 }
 .info {
   max-width: 200px;
@@ -88,32 +127,49 @@ button {
 /*  */
 .testimonial {
   background-color: #e5e7eb;
+  border: 2px solid red;
+  /* margin: 0 auto; */
+  padding: 5em 0;
+}
+.testimonial--wrapper {
+  width: 47%;
+  border: 2px solid green;
+  margin: 0 auto;
 }
 .quote {
-  max-width: 950px;
-  margin-top: 40px;
-  margin-left: 200px;
-  padding-top: 100px;
+  /* margin: 0 auto; */
+  /* width: 80%; */
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
 }
 .quote-person {
-  max-width: 930px;
-  margin-left: 200px;
+  /* max-width: 930px; */
+  /* margin-left: 200px; */
   text-align: end;
-  padding-bottom: 80px;
+
   font-weight: bold;
 }
 /*  */
+.sign-up--container {
+  margin: 5rem 0;
+}
 .sign-up {
+  background-color: #3882f6;
+  /* margin: 80px 100px; */
+  padding: 3em 0;
+  color: white;
+  /* margin: 4rem 0; */
+}
+.sign-up--wrapper {
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
-  background-color: #3882f6;
-  margin: 80px 100px;
-  padding: 40px 80px 40px 80px;
-  color: white;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid green;
 }
+
 .sign-up button {
   border: 2px solid white;
   font-weight: bold;
