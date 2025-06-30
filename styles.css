@@ -201,7 +201,14 @@ button:focus {
 }
 
 @media (max-width: 900px) {
-  
+  .right-links {
+    gap: 1rem;
+  }
+  .right-links--item {
+    font-size: 0.9rem;
+
+    /* color: red; */
+  }
   .container--width,
   .testimonial--wrapper {
     width: 90%;
