@@ -180,6 +180,7 @@ button:focus {
   width: 80%;
   margin: 0 auto;
   border: 2px solid green;
+  gap: 2rem;
 }
 
 .sign-up button {
@@ -199,14 +200,16 @@ button:focus {
   align-items: center;
   color: white;
 }
-
+.action,
+.sign-up--wrapper button {
+  /* border: 2px solid red; */
+}
 @media (max-width: 900px) {
   .right-links {
     gap: 1rem;
   }
   .right-links--item {
     font-size: 0.9rem;
-
     /* color: red; */
   }
   .container--width,
