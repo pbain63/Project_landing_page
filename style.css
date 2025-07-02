@@ -19,7 +19,7 @@ header {
 }
 .container {
   width: 90%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   border: 2px solid green;
   margin: 0 auto;
 }
@@ -68,25 +68,22 @@ img {
   background: #1f2937;
   padding: 5em 0;
 }
+
 .hero__text--wrapper {
   flex-direction: column;
   gap: 3rem;
 }
-.hero__text,
-.hero__image {
-}
+
 .hero__title {
   color: #f9faf8;
   font-size: 3rem;
   font-weight: 900;
 }
 .hero__text {
-  /* width: 38%; */
   border: 2px solid blue;
   align-self: flex-start;
   color: #e5e7eb;
   font-size: 1.125rem;
-  /* padding: 1em 0; */
 }
 .hero__secondary-text {
   padding: 2em 0;
@@ -102,10 +99,7 @@ button:hover,
 button:focus {
   opacity: 0.75;
 }
-.hero__image {
-  /* width: 55%; */
-  /* max-height: 40vh; */
-}
+
 .information {
   padding: 5em 0;
 }
@@ -148,21 +142,21 @@ button:focus {
   padding: 5em 0;
 }
 .call-to-action--wrapper {
-  /* gap: 2em; */
-  /* align-items: center; */
   background: #3882f6;
   color: white;
-  padding: 2em 4em;
+  padding: 2rem 4rem;  /*  */
+ 
 }
-.call-to-action--left-side,
-.call-to-action--button {
+.call-to-action--width-container {
+  border: 2px solid red;
+  
 }
-.call-to-action--left-side {
-  margin-bottom: 2rem;
+
+.call-to-action--left-side p{
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
-.call-to-action--left-side h3 {
-  margin-bottom: 0.5rem;
-}
+
 .call-to-action--button {
   background: #3882f6;
   color: white;
@@ -184,3 +178,58 @@ button {
  
 } */
 /* Break point 700px */
+@media (min-width: 700px) {
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    
+  }
+  .nav__list {
+    gap: 2rem;
+  }
+  .hero__text--wrapper {
+    flex-direction: row;
+  }
+  .hero__text {
+    width: 38%;
+  }
+  .hero__image {
+    width: 50%;
+    max-height: 40vh;
+  }
+  
+  .info__container, .quote__container {
+    width: 60%;
+  }
+  .info__wrapper{
+    display: flex;
+    gap: 1rem;
+  }
+  .info__image {
+    border: 2px solid red;
+ 
+    height: 20rem;
+    /* height: 100%; */
+
+  }
+  .call-to-action--wrapper {
+    /* padding: 0; */
+    /* padding: 2em 8.5em; */
+    /* width: 60%; */
+  } 
+  .call-to-action--width-container {
+    border: 2px solid red;
+    /* padding: 0; */
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* width: 95%; */
+    /* margin: 0 auto; */
+  }
+
+
+
+
+}
