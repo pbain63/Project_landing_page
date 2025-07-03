@@ -19,8 +19,7 @@ header {
 }
 .container {
   width: 90%;
-  /* max-width: 1200px; */
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 0 auto;
 }
 .row {
@@ -38,7 +37,6 @@ header {
   display: flex;
   align-items: center;
   gap: 1rem;
-  border: 2px solid blue;
 }
 .nav__link {
   /* color: red; */
@@ -80,7 +78,6 @@ img {
   font-weight: 900;
 }
 .hero__text {
-  border: 2px solid blue;
   align-self: flex-start;
   color: #e5e7eb;
   font-size: 1.125rem;
@@ -104,7 +101,6 @@ button:focus {
   padding: 5em 0;
 }
 .info {
-  border: 2px solid blue;
 }
 .info {
   margin-top: 3rem;
@@ -134,7 +130,6 @@ button:focus {
   color: #1f2937;
 }
 .quote__text--small {
-  border: 2px solid blue;
   text-align: end;
   font-weight: bold;
 }
@@ -144,15 +139,12 @@ button:focus {
 .call-to-action--wrapper {
   background: #3882f6;
   color: white;
-  padding: 2rem 4rem;  /*  */
- 
+  padding: 2rem 4rem; /*  */
 }
 .call-to-action--width-container {
-  border: 2px solid red;
-  
 }
 
-.call-to-action--left-side p{
+.call-to-action--left-side p {
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
@@ -174,15 +166,12 @@ button {
   text-align: center;
   padding: 1em 0;
 }
-/* .testing {
- 
-} */
-/* Break point 700px */
+
+/* Break point  */
 @media (min-width: 700px) {
   .container {
     width: 80%;
     max-width: 1200px;
-    
   }
   .nav__list {
     gap: 2rem;
@@ -197,39 +186,24 @@ button {
     width: 50%;
     max-height: 40vh;
   }
-  
-  .info__container, .quote__container {
+
+  .info__container,
+  .quote__container {
     width: 60%;
   }
-  .info__wrapper{
+  .info__wrapper {
     display: flex;
     gap: 1rem;
   }
   .info__image {
-    border: 2px solid red;
- 
     height: 20rem;
     /* height: 100%; */
-
   }
-  .call-to-action--wrapper {
-    /* padding: 0; */
-    /* padding: 2em 8.5em; */
-    /* width: 60%; */
-  } 
+
   .call-to-action--width-container {
-    border: 2px solid red;
-    /* padding: 0; */
-    /* margin: 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    /* width: 95%; */
-    /* margin: 0 auto; */
   }
-
-
-
-
 }
