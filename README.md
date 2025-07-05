@@ -25,9 +25,21 @@ Ideal for:
 - **Responsive Design** — mobile-first and scalable
 - **GitHub Pages** — deployment
 
-## Preview
+## Screenshots
 
-![Landing Page Screenshot](assets/screenshot.png)
+Here are a few screenshots demonstrating the responsive design:
+
+### Mobile View (max-width: 700px)
+
+<div align="center">
+  <img src="assets/screenshots/Mobile-view_Project_landing_page_.png" alt="Mobile View" height="400px" />
+</div>
+
+### Desktop View
+
+<div align="center">
+  <img src="assets/screenshots/Desktop-view_Project_landing_page.png" alt="Desktop View" height="400px" />
+</div>
 
 ## Features
 
