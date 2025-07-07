@@ -49,6 +49,26 @@ Here are a few screenshots demonstrating the responsive design:
 - Sections for services, about, and contact
 - Clean and consistent typography
 
+## Getting Started
+
+1. Clone the Repository
+
+git clone https://github.com/pbain63/Project_landing_page.git
+
+2. Open in Browser
+
+Just open index.html in your browser, or use a live server extension for real-time development.
+
+3. Deploy with GitHub Pages
+
+This project is already deployed, but to deploy your own version:
+
+- Go to your repo > Settings > Pages
+
+- Choose main branch and /root
+
+- Save and GitHub will publish your page
+
 ## Future Improvements
 
 - Add JavaScript interactivity (e.g., scroll effects, form validation)
